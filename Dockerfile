@@ -2,7 +2,7 @@
 FROM node:16-alpine3.15
 # Create a working directory and copy all files (except those in .dockerignore)
 WORKDIR /src/
-COPY . . /src/
+COPY . . 
 #Install our dependencies
 RUN npm install
 # Set environmental variables 
